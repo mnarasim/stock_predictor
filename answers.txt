@@ -1,7 +1,9 @@
-Prophet is specifically for time series data and thus requires less hyper parameter tuning.
-   LSTM in general works well for sequential data and 	     time series application is just one use case.
+1) Prophet is specifically for time series data and thus requires less 
+hyper parameter tuning.
+LSTM in general works well for sequential data and time series application 
+is just one use case.
 
-1) LSTM is more suited for advanced datasets so perhaps has a tendency to 
+LSTM is more suited for advanced datasets so perhaps has a tendency to 
 overfit in most situations. This is one reason why ARIMA is preferred than LSTM.
 
 2) Exponential smoothing is a method for forecasting univariate time series data. 
