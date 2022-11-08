@@ -1,0 +1,23 @@
+Prophet is specifically for time series data and thus requires less hyper parameter tuning.
+   LSTM in general works well for sequential data and 	     time series application is just one use case.
+
+1) LSTM is more suited for advanced datasets so perhaps has a tendency to 
+overfit in most situations. This is one reason why ARIMA is preferred than LSTM.
+
+2) Exponential smoothing is a method for forecasting univariate time series data. 
+It is based on the principle that a prediction is a weighted linear sum of past 
+observations or lags. The Exponential Smoothing time series method works by assigning 
+exponentially decreasing weights for past observations. The technique is so called 
+because the weight assigned to each demand observation exponentially decreases. 
+
+3) A stationary time series is one whose properties do not depend on the time at which 
+the series is observed. Seasonality is a characteristic of a time series in which the 
+data experiences regular and predictable changes that recur every calendar year. Any 
+predictable fluctuation or pattern that recurs or repeats over a one-year period is 
+said to be seasonal.
+
+Stationarity is important because it helps with predictability.
+
+4)If the fluctuations are not of a fixed frequency then they are cyclic, if the frequency 
+is unchanging and associated with some aspect of the calendar, then the pattern is seasonal.
+Seasonality is predictable, whereas  cyclicality  is not.
